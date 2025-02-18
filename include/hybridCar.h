@@ -9,6 +9,7 @@ using namespace std;
 
 class HybridCar : public ElectricCar, public GasolineCar
 {
+public:
 	string Drive() override;
 	double fuelEfficiency() override;
 	string ChargeBattery() override;
