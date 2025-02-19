@@ -12,5 +12,5 @@ double GasolineCar::FuelEfficiency()
 
 string GasolineCar::Refuel()
 {
-	return "Rfuel GasolineCar";
+	return "Refuel GasolineCar";
 }
