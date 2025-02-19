@@ -5,9 +5,9 @@ string ElectricCar::Drive()
 	return "Drive ElectricCar";
 }
 
-double ElectricCar::fuelEfficiency()
+double ElectricCar::FuelEfficiency()
 {
-	return 10.0;
+	return 10;
 }
 
 string ElectricCar::ChargeBattery()

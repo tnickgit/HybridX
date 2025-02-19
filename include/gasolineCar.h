@@ -6,10 +6,10 @@
 
 using namespace std;
 
-class GasolineCar : public Car
+class GasolineCar : virtual public Car
 {
 public:
 	string Drive() override;
-	double fuelEfficiency() override;
+	double FuelEfficiency() override;
 	string Refuel() override;
 };

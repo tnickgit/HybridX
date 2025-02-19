@@ -5,9 +5,9 @@ string GasolineCar::Drive()
 	return "Drive GasolineCar";
 }
 
-double GasolineCar::fuelEfficiency()
+double GasolineCar::FuelEfficiency()
 {
-	return 10.0;
+	return 10;
 }
 
 string GasolineCar::Refuel()

@@ -5,9 +5,9 @@ string HybridCar::Drive()
 	return "Drive HybridCar";
 }
 
-double HybridCar::fuelEfficiency()
+double HybridCar::FuelEfficiency()
 {
-	return 10.0;
+	return 10;
 }
 
 string HybridCar::ChargeBattery()
